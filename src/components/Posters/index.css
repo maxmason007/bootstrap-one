@@ -1,0 +1,43 @@
+.bigcontainer {
+    display: flex;
+    height: 70vh;
+    margin-bottom: 10;
+}
+
+.postercontainer {
+    display: flex;
+    width: 100%;
+    height: 475px;
+    overflow: visible;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    /* border: solid brown; */
+    /* background-color: yellow; */
+}
+
+img {
+    display: flex;
+    border-radius: 25px;
+    height: 225px;
+    width: 150px;
+
+}
+
+
+@media (max-width: 1005px) {
+    .postercontainer {
+        width: 650px;
+    }
+}
+
+@media (min-width: 210px) and (max-width: 606px) {
+    .postercontainer {
+        width: 100%;
+    }
+}

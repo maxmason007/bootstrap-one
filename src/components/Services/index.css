@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+}
+
+.servicestext {
+    /* font-family: 'Roboto', Courier, monospace; */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 492px) {
+    .services {
+        margin-top: 15rem;
+    }
+}
+
+@media (min-width: 493px) {
+    .services {
+        margin-top: -11rem;
+    }
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background: orange;
+    margin: 0 auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .square-animation {
+        animation: wipe-enter 1s 1;
+    }
+}
+
+
+@keyframes wipe-enter {
+    0% {
+        transform: scale(0, .5);
+    }
+
+    50% {
+        transform: scale(5, .75);
+    }
+}

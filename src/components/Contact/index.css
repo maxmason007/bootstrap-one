@@ -1,0 +1,60 @@
+.contact-us {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.listitems {
+    list-style: none;
+    padding: 10px;
+    font-weight: 800;
+
+}
+
+::placeholder {
+    font-style: 'Robato';
+    color: black;
+}
+
+.top {
+    margin-bottom: 10px;
+}
+
+
+.flat-button {
+    color: black;
+    background: 0 0;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid #115173;
+    float: left;
+    border-radius: 4px;
+    margin-bottom: 50px;
+}
+
+
+
+.textarea {
+    width: 100%;
+    border: 0;
+    /* background: #115173; */
+    height: 50px;
+    font-size: 16px;
+    color: black;
+    padding: 5px;
+    border: 1px solid #115173;
+    min-height: 150px;
+    box-sizing: border-box;
+    margin-top: 15px;
+
+}
+
+.footer {
+    margin-top: 50px;
+    margin-right: 70px;
+    font-size: 12px;
+    text-align: center;
+    /* text-align: center; */
+}

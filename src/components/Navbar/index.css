@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo-container {
+    width: 250px;
+    display: flex;
+}
+
+.navbar-header {
+    display: flex;
+    height: 500px;
+    width: 200px;
+    justify-content: center;
+
+}
+
+.logotwo {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 200px;
+}
+
+
+.header-text {
+    margin-top: 10px;
+}
+
+.Navbar.Brand {
+    right: 20%
+}
+
+
+#logo {
+    display: flex;
+    height: 120px;
+    width: 100px;
+}
+
+#name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Millik';
+    margin-left: 10px;
+}
+
+.navlinks {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}
