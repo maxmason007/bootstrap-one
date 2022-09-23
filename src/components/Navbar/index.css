@@ -36,15 +36,15 @@
 
 #logo {
     display: flex;
-    height: 120px;
-    width: 100px;
+    height: 80px;
+    width: 70px;
 }
 
 #name {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Millik';
+    font-family: 'Millik', 'Millik-two';
     margin-left: 10px;
 }
 
