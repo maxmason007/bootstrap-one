@@ -31,7 +31,7 @@ function OffcanvasExample() {
                                 </Offcanvas.Title>
                             </Offcanvas.Header>
                             <Offcanvas.Body className="offcanvas-body mt-4">
-                                <Nav className="justify-content-end flex-grow-1 pe-3">
+                                <Nav className="justify-content-end flex-grow-1 pe-3 mb-4">
                                     <Nav.Link className="navlinks" href="#home">Home</Nav.Link>
                                     <Nav.Link className="navlinks" href="#posters">Posters</Nav.Link>
                                     <Nav.Link className="navlinks" href="#services">Services</Nav.Link>
